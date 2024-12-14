@@ -1,0 +1,50 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.cards {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+
+    /* margin: 20px; */
+    background-color: #FFFF;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px;
+    overflow: hidden;
+    width:300px;
+    height: 500px;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.3s;   
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.card:hover img {
+    filter: grayscale(0);
+    scale: 1.03;
+}
+
