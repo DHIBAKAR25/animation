@@ -233,9 +233,9 @@ p {
 .container2 {
     animation-name: apper;
     animation-timing-function: linear;
-    animation-timeline: view();
+    animation-timeline: view(10%);
     animation-range: entry 0% cover 30%;
-    /* border: 2px solid black; */
+
 
 }
 
@@ -267,8 +267,9 @@ p {
     /* width: 600px; */
     /* border: 1px solid black; */
 }
-.container3 h1{
-text-align: center;
+
+.container3 h1 {
+    text-align: center;
 }
 
 .impression img {
@@ -293,13 +294,14 @@ text-align: center;
 
 
 @keyframes silde {
-    from{
+    from {
         translate: 0%;
     }
+
     to {
-        translate:100% 
+        translate: 100%
     }
-    
+
 }
 
 
@@ -315,4 +317,3 @@ footer {
 }
 
 /* -------------------animation-------------------- */
-
